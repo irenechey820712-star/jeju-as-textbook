@@ -1,0 +1,3 @@
+# Serve the workbook byte-for-byte; skip line-ending normalization on the big file
+index.html -text
+*.md text eol=lf

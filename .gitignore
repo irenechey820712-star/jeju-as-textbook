@@ -1,0 +1,5 @@
+# OS / office temp
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
