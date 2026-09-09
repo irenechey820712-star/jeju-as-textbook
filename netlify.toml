@@ -1,0 +1,10 @@
+# 정적 사이트 — 빌드 없음, 저장소 루트를 그대로 배포
+[build]
+  publish = "."
+  command = ""
+
+# index.html 이 23MB(페이지 이미지 내장)라 캐시를 길게 잡아 재방문 속도 확보
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
