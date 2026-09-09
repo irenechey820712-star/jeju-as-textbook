@@ -3,3 +3,6 @@
 Thumbs.db
 ~$*
 *.tmp
+
+# local helper, not for the repo
+push-to-github.sh
